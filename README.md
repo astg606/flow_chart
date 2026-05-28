@@ -1,6 +1,6 @@
 # flow_chart
 
-```mermaid
+```java
     %% Define Styles for Stages
     classDef dataStage fill:#d4e6f1,stroke:#2980b9,stroke-width:2px,color:#000
     classDef procStage fill:#d5f5e3,stroke:#27ae60,stroke-width:2px,color:#000
@@ -47,6 +47,7 @@
         MapFormat[Apply PNAS Formatting: 9pt Arial, 300dpi, clean axes, tick inset]:::outStage
         OutMaps((Final PNAS-Formatted Maps: Suitability & Exposure)):::outStage
     end
+
     LR --> RiskCalc
     RF --> RiskCalc
     RiskCalc --> MapFormat

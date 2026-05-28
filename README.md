@@ -1,6 +1,7 @@
 # flow_chart
 
-```java
+```mermaid
+flowchart TD
     %% Define Styles for Stages
     classDef dataStage fill:#d4e6f1,stroke:#2980b9,stroke-width:2px,color:#000
     classDef procStage fill:#d5f5e3,stroke:#27ae60,stroke-width:2px,color:#000
